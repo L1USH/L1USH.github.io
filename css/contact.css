@@ -205,11 +205,13 @@ display: flex;
 
 }
 @media only screen
-and (max-width: 721px) {
+and (max-width: 1221px) {
 	.bg{
 		flex-direction: row;
 		flex-wrap: wrap;
-
+		justify-content: center;
+		align-items: center;
+height: 60vh;
 	}
 
 	.nv a{
@@ -218,6 +220,21 @@ and (max-width: 721px) {
   -webkit-text-fill-color: transparent;
   font-size: 4vw;
 	}
+	.form-inner{
+		width: 100%;
+	}
+	.forma{
+		width: 100%;
+	}
+	.blabla{
+		width: 100%;
+		font-size: 4vw;
+		align-items: center;
+	}
+	.soc{
+		width: 100%;
+	}
+
 }
 
 @media only screen
@@ -226,11 +243,26 @@ and (max-width: 521px) {
 		flex-direction: column;
 		flex-wrap: nowrap;
 		text-align: center;
+		height: 100%;
+	}
+	.nv>a{
+		color: black;
+	}
+	.paralax_image:nth-child(1) {
+      height: 150%;
+}
+}
+@media only screen
+and (min-width: 121px)
+and (max-width: 400px) {
+	.bg{
+		flex-direction: column;
+		flex-wrap: nowrap;
+
 	}
 	.nv>a{
 		color: black;
 	}
 	.paralax_image:nth-child(1) {
       height: 100%;
-}
 }

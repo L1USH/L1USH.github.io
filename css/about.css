@@ -224,6 +224,9 @@ display: flex;
 }
 @media only screen
 and (max-width: 721px) {
+	body{
+		margin: 0 auto;
+	}	
 	.bg{
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -264,6 +267,11 @@ and (max-width: 521px) {
 	}
 	.paralax_image:nth-child(1) {
       height: 100%;
+}
+.paralax_image:nth-child(2) {
+     
+      flex-direction: column;
+      padding: 40px;
 }
 .info{
 	width: 100%;

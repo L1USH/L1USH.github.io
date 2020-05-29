@@ -99,7 +99,7 @@ and (max-width: 721px) {
 	.bg{
 		flex-direction: row;
 		flex-wrap: wrap;
-
+		
 	}
 
 	.nv a{

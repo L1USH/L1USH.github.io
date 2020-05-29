@@ -232,6 +232,9 @@ border:none;
 }
 @media only screen
 and (max-width: 721px) {
+	body{
+		margin: 0 auto;
+	}
 	.bg{
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -244,6 +247,17 @@ and (max-width: 721px) {
   -webkit-text-fill-color: transparent;
   font-size: 4vw;
 	}
+	.paralax_image:nth-child(2) {
+      height: 100%;
+      flex-direction: column;
+     
+      width: 100%;
+}
+.foto{
+	margin-top: 5px;
+	width: 100%;
+	align-self: center;
+}
 }
 
 @media only screen
@@ -265,6 +279,7 @@ and (max-width: 521px) {
 	}
 	.paralax_image:nth-child(1) {
       height: 100%;
+      width: 100%;
 }
 .tekst{
 	width: 100%;
@@ -290,13 +305,7 @@ and (max-width: 400px) {
 	.paralax_image:nth-child(1) {
       height: 100%;
 }
-.paralax_image:nth-child(2) {
-      height: 100%;
-      flex-direction: column;
-      padding: 10px;
-}
 
-.foto{
-	margin-top: 5px;
-}
+
+
 }
