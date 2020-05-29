@@ -230,3 +230,73 @@ border:none;
 	background-size: 130%;
 	background-position: center; 
 }
+@media only screen
+and (max-width: 721px) {
+	.bg{
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+	.nv a{
+		background: -webkit-linear-gradient(black, 	#000);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+	}
+}
+
+@media only screen
+and (max-width: 521px) {
+	.bg{
+		flex-direction: column-reverse;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		height: 55vh;
+	}
+	.nv>a{
+		color: black;
+	}
+	.cv_bt{
+
+		justify-content: center;
+		align-items: flex-end;
+	}
+	.paralax_image:nth-child(1) {
+      height: 100%;
+}
+.tekst{
+	width: 100%;
+	text-align: center;
+
+}
+.tekst h1{
+ font-size: 4vw;
+ 
+}
+}
+@media only screen
+and (min-width: 121px)
+and (max-width: 400px) {
+	.bg{
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+	}
+	.nv>a{
+		color: black;
+	}
+	.paralax_image:nth-child(1) {
+      height: 100%;
+}
+.paralax_image:nth-child(2) {
+      height: 100%;
+      flex-direction: column;
+      padding: 10px;
+}
+
+.foto{
+	margin-top: 5px;
+}
+}
