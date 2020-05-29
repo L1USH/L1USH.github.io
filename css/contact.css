@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	background-repeat: no-repeat;
+}
+.wrapper{
+	width: 99vw;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.paralax_image{
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	height: 100vh;
+	width: 99vw;
+}
+.header{
+
+	display: flex;
+	position: fixed;
+}
+.nv>a{
+	background: -webkit-linear-gradient(#eee, 	#E6E6FA);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.navigations{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 99vw;
+}
+.nv{
+	margin-right: 25px;
+}
+.logo > img{
+	width: 50px;
+	height: 50px;
+	
+}
+.bg{
+	display: flex;
+	width: 99vw;
+	height: 100%;
+}
+.paralax_image:nth-child(1) {
+background-image: linear-gradient(to right top, #4a4a4a, #4d4c4d, #504e4f, #545050, #565351, #575451, #575652, #575753, #575753, #575752, #565652, #565651);
+}
+.forma{
+	width: 50%;
+	height: 100%;
+display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+  margin-top: 140px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #808080;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.form-inner{
+	width: 27vw;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  margin-top: 15px;
+ 
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #808080;
+  border-bottom: 4px solid #808080;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+.blabla{
+	width: 50%;
+	height: 100%;
+display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;a
+	padding: 20px;
+}
+.blabla>h1{
+	color: white;
+	margin-right: 5px;
+
+}
+.soc{
+	height: 20vh;
+	width: 40vw;
+
+	padding: 20px;
+	margin-top: 20px;
+	display: flex;
+}
+.net{
+	height:70px;
+	width: 70px;
+	margin: 10px;
+	border-radius: 100%;
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.insta{
+	background-image: url(../img/insta.png);
+	background-size: 100%;
+}
+.face{
+	background-image: url(../img/fc.png);
+	background-size: 100%;
+}
+.gmail{
+	background-image: url(../img/gm.png);
+	background-size: 100%;
+}
+.vk{
+	background-image: url(../img/vk.png);
+	background-size: 100%;
+}
+.steam{
+	
+	background-image: url(../img/st.png);
+	background-size: 100%;
+
+}
