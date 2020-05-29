@@ -179,6 +179,9 @@ display: flex;
 	background-repeat: no-repeat;
 	background-position:center;
 }
+.net>a{
+	background-size: 100%;
+}
 .insta{
 	background-image: url(../img/insta.png);
 	background-size: 100%;
@@ -200,4 +203,34 @@ display: flex;
 	background-image: url(../img/st.png);
 	background-size: 100%;
 
+}
+@media only screen
+and (max-width: 721px) {
+	.bg{
+		flex-direction: row;
+		flex-wrap: wrap;
+
+	}
+
+	.nv a{
+		background: -webkit-linear-gradient(black, 	#000);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+	}
+}
+
+@media only screen
+and (max-width: 521px) {
+	.bg{
+		flex-direction: column;
+		flex-wrap: nowrap;
+		text-align: center;
+	}
+	.nv>a{
+		color: black;
+	}
+	.paralax_image:nth-child(1) {
+      height: 100%;
+}
 }

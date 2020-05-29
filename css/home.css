@@ -123,3 +123,17 @@ and (max-width: 521px) {
       height: 100%;
 }
 }
+@media only screen
+and (min-width: 121px)
+and (max-width: 400px) {
+	.bg{
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+	.nv>a{
+		color: black;
+	}
+	.paralax_image:nth-child(1) {
+      height: 100%;
+}
+}
